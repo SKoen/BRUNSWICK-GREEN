@@ -17,6 +17,9 @@ input{
     margin-top: 10px;
     width: 350px;
 }
+a:hover{
+    text-decoration: none;
+}
 .main-column h1{
     color: #10A195;
 }
@@ -49,6 +52,52 @@ input{
 .main-options .try-it{
     color: #E34115;
 }
+.main-top{
+    background-color: #0DE3D7;
+    font-size: 30px;
+}
+.main-top .main-link-albums{
+    color: #E3900D;
+}
+.main-top .main-link-top3{
+    font-size: 50px;
+    color: #F14509;
+    margin-bottom: 50px;
+}
+.main-top .main-link-top3 img{
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding:10px 10px;
+    margin-left: 10px;
+}
+.main-top .main-link-albums img {
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding:20px 30px;
+}
+.main-bottom{
+    background-color: #E98B1B;
+    font-size:40px;
+    padding-bottom: 100px;
+}
+.main-bottom .main-link-categories{
+    top: -50px;
+    color: #324DD8;
+}
+.main-bottom .main-link-categories img {
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding:20px;
+}
+.main-bottom .main-enter-link{
+    background-color: #0DE3D7;
+    padding: 35px;
+    border: 3px solid #000000;
+    border-radius:5px;
+    color: #F14509;
+    display: inline-block;
+}
+
 .left-column{
     background-color: #2F6074;
     padding-top: 20px;
