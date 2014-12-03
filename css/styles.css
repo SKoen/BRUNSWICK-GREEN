@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Penguin;
+    src: url(fonts/UNDERATTACK.ttf);
+}
+
+body{
+    font-family: Penguin
+}
+input{
+    text-align:center;
+    border: 7px solid #DADADA;
+    border-radius: 7px;
+    background-color:#F4F4F4;
+    color: #a8a8a8;
+    font-size: 25px;
+    font-family: Arial;
+    margin-top: 10px;
+    width: 350px;
+}
+.main-column h1{
+    color: #10A195;
+}
+.main-column{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.main-column .round-logo {
+    background-color: #EDA321;
+    border-radius:250px;
+    text-align:center;
+    max-width: 450px;
+    display: inline-block;
+    color: #A15110;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.main-column .round-logo img{
+    display:inline-block;
+    margin: 40px;
+    margin-bottom: 0;
+}
+.main-options{
+    margin-top:20px;
+    font-size: 40px;
+}
+.main-options .join-us{
+    color: #47C550;
+}
+.main-options .try-it{
+    color: #E34115;
+}
+.left-column{
+    background-color: #2F6074;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.left-column h2{
+    color: #47C550;
+}
+.left-column h3:nth-of-type(2n+1){
+    color:#B7EC7E;
+}
+.left-column h3:nth-of-type(2n){
+    color:#47C550;
+}
+.left-column img{
+    border-radius: 5px;
+    border: 5px solid #000000;
+    box-shadow: 10px 10px 5px #222222;
+}
