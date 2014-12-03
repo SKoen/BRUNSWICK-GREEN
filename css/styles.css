@@ -120,3 +120,46 @@ a:hover{
     border: 5px solid #000000;
     box-shadow: 10px 10px 5px #222222;
 }
+.conf-header{
+    background-color: #5C85D9;
+}
+.conf-header a{
+    color: #D3F3DC;
+    font-size: 60px;
+}
+.conf-header .header-text{
+    margin-top:40px;
+}
+.conf-header img{
+    padding: 20px;
+}
+.conf-main .conf-menu{
+    background-color: #D65928;
+    color: #23D9E0;
+}
+.conf-main .conf-menu ul{
+    padding-left: 0;
+}
+.conf-main .conf-menu li{
+    font-size: 28px;
+    margin-top: 40px;
+    list-style-type: none;
+}
+.conf-main .conf-menu li:last-child{
+    margin-bottom: 100px;
+}
+.conf-main .conf-menu a{
+    color: #23D9E0;
+}
+.conf-main .profile-image{
+    display: inline-block;
+    margin-top: 30px;
+}
+.conf-footer{
+    background-color: #E98B1B;
+    font-size: 30px;
+    padding: 35px 0;
+}
+.conf-footer a{
+    color: #2E4849;
+}
