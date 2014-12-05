@@ -6,6 +6,12 @@
 body{
     font-family: Penguin
 }
+.background{
+    background-image: url("../css/images/ice-md.png");
+    background-position:top left;
+    background-repeat: repeat-x;
+
+}
 input{
     text-align:center;
     border: 7px solid #DADADA;
@@ -22,6 +28,15 @@ a:hover{
 }
 .main-column h1{
     color: #10A195;
+}
+.header-login{
+    color: #08776B;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.header-menu{
+    color: #2E4849;
+    font-size: 25px;
 }
 .main-column{
     padding-top: 20px;
@@ -108,6 +123,25 @@ a:hover{
 }
 .left-column h2{
     color: #47C550;
+}
+.photo-header{
+    color: #1D78DD;
+}
+.photo-holder{
+    background-color: #D0F7F1;
+}
+.photo-info{
+    color: #F48E09;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.photo-comments{
+    background-color: #B9E18D;
+    padding: 20px 0;
+    color: #1D78DD;
+}
+textarea{
+    color: #1D78DD!important;
 }
 .left-column .album h3:nth-of-type(2n+1){
     color:#B7EC7E;
