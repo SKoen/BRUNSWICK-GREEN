@@ -1,5 +1,12 @@
 $(function(){
+	'use strict';
 
-    // TODO: Our app logic
+	
+
+	
+	
+
+
+	
 
 });
