@@ -16,7 +16,7 @@
 
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <div class="row">
             <!--left column-->
             <div class="col-md-3 left-column hidden-sm hidden-xs">
@@ -47,32 +47,35 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-9 col-sm-12 text-center main-column">
-                <h1>PENGUIN GALLERY</h1>
-                <a href="#">
-                    <div class="round-logo">
-                        <img src="css/images/penguin.png" class="img-responsive" />
-                        LOGIN
+            <div id="section-forms">
+                <!-- We need a initial form here -->
+                <section id="login-section">
+                    <div class="col-md-9 col-sm-12 text-center main-column">
+                        <h1>PENGUIN GALLERY</h1>
+                        <a href="#" id="login">
+                            <div class="round-logo">
+                                <img src="css/images/penguin.png" class="img-responsive" />
+                                LOGIN
+                            </div>
+                        </a>
+                        <div>
+                            <input type="text" placeholder="Username ..." id="username" />
+                        </div>
+                        <div>
+                            <input type="password" placeholder="******" id="password" />
+                        </div>
+                        <div class="main-options">
+                            <a href="#">
+                                <div id="register-switch">JOIN US</div>
+                            </a>
+                            <a href="#">
+                                <div class="try-it">TRY IT FOR FREE!</div>
+                            </a>
+                        </div>
                     </div>
-                </a>
-                <div>
-                    <input type="text" placeholder="user name" />
-                </div>
-                <div>
-                    <input type="text" placeholder="password" />
-                </div>
-                <div>
-                    <input type="text" placeholder="mail" />
-                </div>
-                <div class="main-options">
-                    <a href="#">
-                        <div class="join-us">JOIN US</div>
-                    </a>
-                    <a href="#">
-                        <div class="try-it">TRY IT FOR FREE!</div>
-                    </a>
-                </div>
+                </section>
             </div>
+
         </div>
     </div>
 
