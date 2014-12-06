@@ -1,5 +1,4 @@
 $(function(){
-	'use strict';
 
 	function successCallback(data) {
 		$("#container").html(TEMPLATES.MAIN);
