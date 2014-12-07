@@ -1,5 +1,5 @@
 ﻿'use strict'
-var userSession = {
+var sessionStorage = {
     setCurrentUser: function (data) {
         sessionStorage['currentUser'] = JSON.stringify(data);
     },

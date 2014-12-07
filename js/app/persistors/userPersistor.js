@@ -66,8 +66,6 @@ var userPersistor = (function () {
     }
 
     _self.prototype.logout = function () {
-        // TODO: Implement this
-
         Parse.User.logOut();
     };
 
