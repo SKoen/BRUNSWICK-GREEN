@@ -33,7 +33,7 @@ TEMPLATES.MAIN = '<div id="main-controller"> \
 	                        </a> \
 	                        <div class="col-xs-12 text-center"> \
 	                            <a href="#"> \
-	                                <div class="main-enter-link"> \
+	                                <div class="main-enter-link" id="penguin-world"> \
 	                                    ENTER IN PENGUIN WORLD \
 	                                </div> \
 	                            </a> \
