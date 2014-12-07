@@ -24,56 +24,36 @@ var userPersistor = (function () {
 
         Parse.User.logIn(user, pass, {
             success: function (user) { successCallback(user); },
-            error: function (user, err) { errorCallback(user, err); }
+            error: function (user, err) { errorCallback(err.message); }
         })
     };
 
     _self.prototype.register = function (user, pass, pass2, email) {
-        // TODO: Implement validation
-        // validateInput();
+        var successCallback = this._successCallback;
+        var errorCallback = this._errorCallback;
 
         if (pass != pass2) {
             // return Parse.Promise.error(new Parse.Error(Parse.Error.OTHER_CAUSE, "The 2 passwords differ."));
         }
+        var query = new Parse.Query(Parse.Role);
+        query.equalTo("name", "registeredUser");
+        return query.find({
+            success: function (Role) {
+                var role = Role[0];
 
-        var successCallback = this._successCallback;
-        var errorCallback = this._errorCallback;
-
-
-        var newUser = new Parse.User();
-        newUser.set("username", user);
-        newUser.set("password", pass);
-        newUser.set("email", email);
-
-        newUser.signUp(null, {
-            success: function (currUser) {
-
-                var query = new Parse.Query(Parse.Role);
-                query.equalTo("name", "registeredUser");
-                var r = query.find({
-                    success: function (Role) {
-                        var role = Role[0];
-                        var currUser = Parse.User.current();
-
-                        role.getUsers().add(currUser);
-                        role.save();
-
-                        //   	currUser.setACL(role.getACL());
-
-                        //   	currUser.save().then(function() {
-                        // 	alert('save to role was success');
-                        // }, function(error) {
-                        // 	alert('save role ERROR:' + error.message());
-                        // });
+                var newUser = new Parse.User();
+                newUser.set("username", user);
+                newUser.set("password", pass);
+                newUser.set("email", email);
+                newUser.set("role", role);
+                newUser.signUp(null, {
+                    success: function (currUser) {
+                        successCallback();
                     },
                     error: function (newUser, err) {
-                        notify.error(err.message);
+                        errorCallback(err.message);
                     }
                 });
-            },
-            error: function (user, error) {
-                // Show the error message somewhere and let the user try again.
-                notify.error("Error: " + error.code + " " + error.message);
             }
         });
     };

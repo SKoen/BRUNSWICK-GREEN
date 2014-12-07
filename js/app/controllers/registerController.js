@@ -17,11 +17,12 @@
     });
 
     function successCallback(data) {
+        notify.success("Registration completed!");
         $("#container").html(TEMPLATES.MAIN);
     };
 
-    function errorCallback(data, err) {
-        notify.error(err.message)
+    function errorCallback(err) {
+        notify.error(err)
     };
 
 }());
