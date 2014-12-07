@@ -9,9 +9,6 @@ var userPersistor = (function () {
     }
 
     _self.prototype.login = function (user, pass, success, error) {
-        // TODO: Implement validation
-        // validateInput();
-
         Parse.User.logIn(user, pass, {
             success: function (user) { success(user); },
             error: function (user, err) { error(err.message); }

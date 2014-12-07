@@ -25,7 +25,7 @@ TEMPLATES.MYALBUMS = '<div id="my-albums-controller"> \
                             <div class="col-sm-9"> \
                                 <div id="user-albums"></div> \
                                 <div class="add-album">\
-                                    <input type="text" placeholder="album title">\
+                                    <input type="text" placeholder="album title" id="txt-album-title">\
                                     <br/>\
                                     <a href="#" id="btn-add-album">Add album</a>\
                                 </div>\
