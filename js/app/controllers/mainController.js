@@ -17,4 +17,10 @@
         $('#main-controller').html(TEMPLATES.PENGUINWORLD);
     });
 
+    $(document).on('click', '#main-controller #myProfile', function (e) {
+        e.preventDefault();
+        console.log("myProfile");
+        $('#main-controller').html(TEMPLATES.MYPROFILE);
+    });
+
 }());
