@@ -1,5 +1,5 @@
 'use strict'
 
 $(function () {
-    $("#container").html(TEMPLATES.MYALBUMS);
+    $("#login-register-template").html(TEMPLATES.LOGIN);
 }());
