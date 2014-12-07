@@ -7,8 +7,6 @@
         user.login(username, password, authSuccess, authError);
     });
 
-    console.log();
-
     function authSuccess(data) {
         notify.success("Hello " + data.attributes.username + "!");
         $("#user-bar").html(TEMPLATES.USERBAR);

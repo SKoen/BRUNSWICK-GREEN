@@ -211,12 +211,26 @@ textarea{
     display: block;
     font-size: 20px;
 }
+#user-albums{
+    clear: right;
+    display: inline-block;
+}
 .add-album{
-    max-width: 400px;
-    text-align: center;
     border: 2px solid #c3c3c3;
     border-radius: 5px;
+    float: left;
     margin: 5px;
+    max-width: 500px;
+    text-align: center;
+    padding: 8px;
+}
+.add-album .album-title{
+    font-size: 30px;
+    color: #2E4849
+}
+.add-album .album-likes{
+    font-size: 20px;
+    color: #08776B;
 }
 #btn-add-album{
     margin: 10px 0;

@@ -5,15 +5,17 @@
         var albumTitle = $("#my-albums-controller #txt-album-title").val();
         var currentUser = user.getUser();
 
-        myAlbums.createAlbum(albumTitle, currentUser, success, error);
+        myAlbums.createAlbum(albumTitle, currentUser, successCreate);
 
-        function success(data) {
+        function successCreate(data) {
+            var selector = "#my-albums-controller #user-albums";
+            myAlbums.getAlbums(currentUser, selector, successRetrieve);
             notify.success("Album Created!");
             console.log(data);
         };
 
-        function error(error) {
-            notify.error(error);
+        function successRetrieve(results) {
         }
+
     });
 }());
