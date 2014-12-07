@@ -10,10 +10,10 @@ TEMPLATES.LOGIN = '"<section id="login-controller"> \
                             </div> \
                         </a> \
                         <div> \
-                            <input type="text" placeholder="Username ..." id="username" /> \
+                            <input type="text" placeholder="Username ..." id="username"  value="test"/> \
                         </div> \
                         <div> \
-                            <input type="password" placeholder="******" id="password" /> \
+                            <input type="password" placeholder="******" id="password" value="test"/> \
                         </div> \
                         <div class="main-options"> \
                             <a href="#"> \
