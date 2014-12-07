@@ -19,6 +19,7 @@ TEMPLATES.MYALBUMS = '<div id="my-albums-controller"> \
                                 </a> \
                                 <ul> \
                                     <li><a href="#"><span id="username"></span> PROFILE</a></li> \
+                                    <li><a href="#" id="load-main"><span></span> MAIN</a></li> \
                                 </ul> \
                             </div> \
                             <div class="col-sm-9"> \
