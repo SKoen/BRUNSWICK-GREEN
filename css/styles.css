@@ -212,7 +212,7 @@ textarea{
     font-size: 20px;
 }
 #user-albums{
-    clear: right;
+    clear: both;
     display: inline-block;
 }
 .add-album{
@@ -222,11 +222,17 @@ textarea{
     margin: 5px;
     max-width: 500px;
     text-align: center;
-    padding: 8px;
+    padding: 10px 20px;
+}
+a.add-album{
+    background-color: #fffb32;
+}
+a.add-album:hover{
+    background-color: #fffc7e
 }
 .add-album .album-title{
-    font-size: 30px;
-    color: #2E4849
+    font-size: 45px;
+    color: #47C550
 }
 .add-album .album-likes{
     font-size: 20px;
