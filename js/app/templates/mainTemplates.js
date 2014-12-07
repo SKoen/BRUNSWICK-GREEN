@@ -1,7 +1,7 @@
 var TEMPLATES = TEMPLATES || {};
 
 TEMPLATES.MAIN = '<div id="main-controller"> \
-                    <div class="main-top"> \
+                    <div class="row main-top"> \
                         <div class="row"> \
                             <a href="#" id="load-albums"> \
                                 <div class="col-sm-4 main-link-albums"> \

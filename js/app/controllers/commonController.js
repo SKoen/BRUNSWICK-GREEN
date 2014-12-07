@@ -3,5 +3,4 @@
         e.preventDefault();
         $('#main-controller').html(TEMPLATES.MAIN);
     });
-
 }());

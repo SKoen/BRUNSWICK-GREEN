@@ -18,13 +18,21 @@
         };
         userSession.setCurrentUser(userData);
         notify.success("Hello " + userData.username + "!");
+        $("#user-bar").html(TEMPLATES.USERBAR);
+        $("#user-bar #user-bar-username").html(userData.username);
         $("#container").html(TEMPLATES.MAIN);
     };
 
     function authError(err) {
         notify.error(err)
     };
-
+    $(document).on('click', '#user-bar #logout', function(e){
+        e.preventDefault();
+        $("#container").html(TEMPLATES.LOGIN);
+        $("#user-bar").html('');
+        userSession.setCurrentUser({});
+        location.reload();
+    })
     $(document).on('click', '#login-controller #register-switch', function (e) {
         $("#login-register-template").html(TEMPLATES.REGISTER);
         return false;

@@ -1,5 +1,6 @@
 var TEMPLATES = TEMPLATES || {};
-
+TEMPLATES.USERBAR = 'Hello, <span id="user-bar-username"></span>!\
+                        <a href="#" id="logout">log out</a>';
 TEMPLATES.LOGIN = '"<section id="login-controller"> \
                     <div class="col-md-9 col-sm-12 text-center main-column"> \
                         <h1>PENGUIN GALLERY</h1> \
