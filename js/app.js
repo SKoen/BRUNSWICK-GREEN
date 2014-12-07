@@ -1,4 +1,10 @@
 $(function(){
+	'use strict';
+
+	$('#albums').click(function () {
+		// TODO: This should be changed !
+	    window.location.replace("albums.html");
+	})
 
 	function successCallback(data) {
 		$("#container").html(TEMPLATES.MAIN);
