@@ -23,7 +23,7 @@ input{
     margin-top: 10px;
     width: 350px;
 }
-a:hover{
+a:hover, a:focus, a:active{
     text-decoration: none;
 }
 .main-column h1{
@@ -201,4 +201,26 @@ textarea{
     margin-top: 10px;
     display: block;
     font-size: 20px;
+}
+.add-album{
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #c3c3c3;
+    border-radius: 5px;
+    margin: 5px;
+}
+#btn-add-album{
+    margin: 10px 0;
+    color: #F14509;
+    font-size: 19px;
+    border: 2px solid #f14609;
+    display: inline-block;
+}
+#btn-add-album:hover{
+    background-color: #eaa289;
+    color: #fff;
+}
+#btn-add-album:active{
+    background-color: #e87c57;
+    color: #fff;
 }
