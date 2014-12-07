@@ -1,5 +1,5 @@
 ﻿$(function () {
-    $(document).on('click', '#registerController #btn-register', function (e) {
+    $(document).on('click', '#register-controller #register', function (e) {
         e.preventDefault();
 
         var username = $("#username").val();
@@ -15,4 +15,13 @@
         $("#login-register-template").html(TEMPLATES.LOGIN);
         return false;
     });
+
+    function successCallback(data) {
+        $("#container").html(TEMPLATES.MAIN);
+    };
+
+    function errorCallback(data, err) {
+        notify.error(err.message)
+    };
+
 }());

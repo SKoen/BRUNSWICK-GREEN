@@ -1,4 +1,4 @@
-﻿(function () {
+﻿$(function () {
 
     $(document).on('click', '#login-controller  #login', function (e) {
         var username = $("#username").val();
@@ -21,4 +21,4 @@
         $("#login-register-template").html(TEMPLATES.REGISTER);
         return false;
     });
-})();
+}());
