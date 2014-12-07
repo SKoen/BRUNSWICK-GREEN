@@ -3,10 +3,10 @@ var TEMPLATES = TEMPLATES || {};
 TEMPLATES.MYALBUMS = '<div id="my-albums-controller"> \
                         <div class="row conf-header"> \
                             <a href="#"> \
-                                <div class="col-sm-2 text-center"> \
+                                <div class="col-sm-2 text-center load-main"> \
                                     <img src="css/images/penguin-logo.png" /> \
                                 </div> \
-                                <div class="col-sm-10 text-center header-text"> \
+                                <div class="col-sm-10 text-center header-text load-main"> \
                                     WELCOME TO MY ALBUMS \
                                 </div> \
                             </a> \
@@ -19,7 +19,7 @@ TEMPLATES.MYALBUMS = '<div id="my-albums-controller"> \
                                 </a> \
                                 <ul> \
                                     <li><a href="#"><span id="username"></span> PROFILE</a></li> \
-                                    <li><a href="#" id="load-main"><span></span> MAIN</a></li> \
+                                    <li><a href="#" class="load-main"><span></span> MAIN</a></li> \
                                 </ul> \
                             </div> \
                             <div class="col-sm-9"> \
