@@ -1,4 +1,7 @@
 var ajaxRequester = (function () {
+    var PARSE_APP_ID = "jz77c8IPJpyGwYB2G3owJKVVlhgDiwhksSWkaXOx";
+    var PARSE_REST_API_KEY = "05MEPKi8CWp4wp3dpTwDPWFz0zBwUGBdCrmYUkaz";
+
     var makeRequest = function (method, url, data, success, error) {
         $.ajax({
             url: url,

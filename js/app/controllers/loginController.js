@@ -4,16 +4,24 @@
         var username = $("#username").val();
         var password = $("#password").val();
 
-        var user = new userPersistor(successCallback, errorCallback);
-        user.login(username, password);
+        var user = new userPersistor();
+        user.login(username, password, authSuccess, authError);
     });
 
 
-    function successCallback(data) {
+    function authSuccess(data) {
+        var userData = {
+            id: data.id,
+            sessionToken: data._sessionToken,
+            username: data.attributes.username,
+            email: data.attributes.email
+        };
+        userSession.setCurrentUser(userData);
+        notify.success("Hello " + userData.username + "!");
         $("#container").html(TEMPLATES.MAIN);
     };
 
-    function errorCallback(err) {
+    function authError(err) {
         notify.error(err)
     };
 

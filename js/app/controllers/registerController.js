@@ -7,8 +7,8 @@
         var password2 = $("#password2").val();
         var email = $("#email").val();
 
-        var user = new userPersistor(successCallback, errorCallback);
-        user.register(username, password, password2, email);
+        var user = new userPersistor();
+        user.register(username, password, password2, email, registerSuccessCallback, registerErrorCallback);
     });
 
     $(document).on('click', '#register-controller #login-switch', function (e) {
@@ -16,12 +16,12 @@
         return false;
     });
 
-    function successCallback(data) {
+    function registerSuccessCallback(data) {
         notify.success("Registration completed!");
         $("#container").html(TEMPLATES.MAIN);
     };
 
-    function errorCallback(err) {
+    function registerErrorCallback(err) {
         notify.error(err)
     };
 

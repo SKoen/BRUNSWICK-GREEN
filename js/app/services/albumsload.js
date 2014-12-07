@@ -1,7 +1,4 @@
 $(function () {
-    var PARSE_APP_ID = "jz77c8IPJpyGwYB2G3owJKVVlhgDiwhksSWkaXOx";
-    var PARSE_REST_API_KEY = "05MEPKi8CWp4wp3dpTwDPWFz0zBwUGBdCrmYUkaz";
-
     $.ajax({
         method: "GET",
         headers: {
