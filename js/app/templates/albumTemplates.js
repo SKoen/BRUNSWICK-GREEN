@@ -16,13 +16,10 @@ TEMPLATES.MYALBUMS = '<div id="my-albums-controller"> \
                             <div class="col-sm-3 conf-menu text-center"> \
                                 <a href="#"><img src="css/images/profile.png" class="img-responsive img-circle profile-image" /></a> \
                                 <ul> \
-<<<<<<< HEAD
                                     <li><a href="#" class="profile"><span id="username"></span> PROFILE</a></li> \
                                     <li><a href="#" class="logout">LogOut</a></li>\
-=======
                                     <li><a href="#"><span id="username"></span> PROFILE</a></li> \
                                     <li><a href="#" class="load-main"><span></span> MAIN</a></li> \
->>>>>>> 2267e7d2213568f773b1112890d7606e39dcbe3b
                                 </ul> \
                             </div> \
                             <div class="col-sm-9"> \

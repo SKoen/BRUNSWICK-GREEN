@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d1d50fd-9f13-45df-a162-9945cfc95178" name="Default" comment="" />
+    <list default="true" id="5d1d50fd-9f13-45df-a162-9945cfc95178" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/templates/albumTemplates.js" afterPath="$PROJECT_DIR$/js/app/templates/albumTemplates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/app.js" afterPath="$PROJECT_DIR$/js/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/templates/mainTemplates.js" afterPath="$PROJECT_DIR$/js/app/templates/mainTemplates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="BRUNSWICK-GREEN.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,12 +50,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax-requester.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ajax-requester.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/services/ajax-requester.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/app/controllers/mainController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31863284" vertical-offset="0" max-vertical-offset="3026">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="albumTemplates.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/templates/albumTemplates.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="986">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <folding>
+                <marker date="1418061012253" expanded="true" signature="86:1177" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="86:1376" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="86:978" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="86:2864" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="142:645" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="185:612" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="264:385" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="477:577" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="726:1962" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="726:1376" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="726:1177" placeholder="..." />
+                <marker date="1418061012253" expanded="true" signature="726:978" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="459">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainTemplates.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/templates/mainTemplates.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="799">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <marker date="1418060990910" expanded="true" signature="77:510" placeholder="..." />
+                <marker date="1418060990910" expanded="true" signature="77:2126" placeholder="..." />
+                <marker date="1418060990910" expanded="true" signature="126:510" placeholder="..." />
+                <marker date="1418060990910" expanded="true" signature="170:510" placeholder="..." />
+                <marker date="1418060990910" expanded="true" signature="230:507" placeholder="..." />
+                <marker date="1418060990910" expanded="true" signature="304:471" placeholder="..." />
+                <marker date="1418060990910" expanded="true" signature="584:906" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,12 +153,12 @@
         <option value="$PROJECT_DIR$/Login/profile.html" />
         <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/js/app/controllers/loginController.js" />
-        <option value="$PROJECT_DIR$/js/app/templates/albumTemplates.js" />
-        <option value="$PROJECT_DIR$/js/app/templates/mainTemplates.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/app/app.js" />
         <option value="$PROJECT_DIR$/js/app/templates/profileTemplates.js" />
         <option value="$PROJECT_DIR$/js/app/controllers/profileController.js" />
+        <option value="$PROJECT_DIR$/js/app/templates/mainTemplates.js" />
+        <option value="$PROJECT_DIR$/js/app/templates/albumTemplates.js" />
+        <option value="$PROJECT_DIR$/js/app/app.js" />
       </list>
     </option>
   </component>
@@ -279,6 +347,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rvm\Documents\GitHub\BRUNSWICK-GREEN\js\app\controllers" />
       <recent name="C:\Users\rvm\Documents\GitHub\BRUNSWICK-GREEN\js" />
       <recent name="C:\Users\rvm\Documents\GitHub\BRUNSWICK-GREEN" />
     </key>
@@ -347,7 +416,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -388,16 +457,119 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/app/templates/albumTemplates.js</url>
-          <line>2</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/controllers/profileController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="867">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/services/ajax-requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="731">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/templates/albumTemplates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="986">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <marker date="1418061012253" expanded="true" signature="86:1177" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="86:1376" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="86:978" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="86:2864" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="142:645" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="185:612" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="264:385" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="477:577" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="726:1962" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="726:1376" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="726:1177" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="726:978" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="459">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/templates/mainTemplates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="799">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <marker date="1418060990910" expanded="true" signature="77:510" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="77:2126" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="126:510" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="170:510" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="230:507" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="304:471" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="584:906" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/persistors/userPersistor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1258" max-vertical-offset="1428">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/controllers/profileController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/services/ajax-requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/persistors/userPersistor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1258" max-vertical-offset="1428">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
@@ -507,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1355354" vertical-offset="210" max-vertical-offset="1768">
           <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,25 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/controllers/mainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile- delete me.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4213615" vertical-offset="423" max-vertical-offset="1275">
           <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/templates/albumTemplates.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -554,25 +710,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16630435" vertical-offset="0" max-vertical-offset="920">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/controllers/registerController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/templates/mainTemplates.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="920">
           <caret line="23" column="103" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44347826" vertical-offset="0" max-vertical-offset="920">
           <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,10 +783,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/templates/mainTemplates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <marker date="1418060990910" expanded="true" signature="77:510" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="77:2126" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="126:510" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="170:510" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="230:507" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="304:471" placeholder="..." />
+            <marker date="1418060990910" expanded="true" signature="584:906" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/templates/albumTemplates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <marker date="1418061012253" expanded="true" signature="86:1177" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="86:1376" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="86:978" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="86:2864" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="142:645" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="185:612" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="264:385" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="477:577" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="726:1962" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="726:1376" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="726:1177" placeholder="..." />
+            <marker date="1418061012253" expanded="true" signature="726:978" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/services/ajax-requester.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/controllers/mainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31863284" vertical-offset="0" max-vertical-offset="3026">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
           <folding />
         </state>
       </provider>

@@ -1,16 +1,6 @@
 $(function () {
-<<<<<<< HEAD
+
     'use strict'
-
-    $("#login-register-template").html(TEMPLATES.LOGIN);
-
-    $(document).on('click', '.logout', function(){
-        var userSession = new userPersistor();
-        userSession.logout();
-
-        location.reload();
-    });
-=======
     var user = new userPersistor();
     var data = user.getUser();
     if (data) {
@@ -21,5 +11,12 @@ $(function () {
     } else {
         $("#login-register-template").html(TEMPLATES.LOGIN);
     }
->>>>>>> 2267e7d2213568f773b1112890d7606e39dcbe3b
+
+    // Used in a lot of places
+    $(document).on('click', '.logout', function(){
+        var userSession = new userPersistor();
+        userSession.logout();
+
+        location.reload();
+    });
 }());
