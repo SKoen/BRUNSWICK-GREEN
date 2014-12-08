@@ -3,10 +3,10 @@ var TEMPLATES = TEMPLATES || {};
 TEMPLATES.MYALBUMS = '<div id="my-albums-controller"> \
                         <div class="row conf-header"> \
                             <a href="#"> \
-                                <div class="col-sm-2 text-center"> \
+                                <div class="col-sm-2 text-center load-main"> \
                                     <img src="css/images/penguin-logo.png" /> \
                                 </div> \
-                                <div class="col-sm-10 text-center header-text"> \
+                                <div class="col-sm-10 text-center header-text load-main"> \
                                     WELCOME TO MY ALBUMS \
                                 </div> \
                             </a> \
@@ -16,12 +16,22 @@ TEMPLATES.MYALBUMS = '<div id="my-albums-controller"> \
                             <div class="col-sm-3 conf-menu text-center"> \
                                 <a href="#"><img src="css/images/profile.png" class="img-responsive img-circle profile-image" /></a> \
                                 <ul> \
+<<<<<<< HEAD
                                     <li><a href="#" class="profile"><span id="username"></span> PROFILE</a></li> \
                                     <li><a href="#" class="logout">LogOut</a></li>\
+=======
+                                    <li><a href="#"><span id="username"></span> PROFILE</a></li> \
+                                    <li><a href="#" class="load-main"><span></span> MAIN</a></li> \
+>>>>>>> 2267e7d2213568f773b1112890d7606e39dcbe3b
                                 </ul> \
                             </div> \
                             <div class="col-sm-9"> \
-                         \
+                                <div id="user-albums"></div> \
+                                <div class="add-album">\
+                                    <input type="text" placeholder="album title" id="txt-album-title">\
+                                    <br/>\
+                                    <a href="#" id="btn-add-album">Add album</a>\
+                                </div>\
                             </div> \
                         </div> \
                          \

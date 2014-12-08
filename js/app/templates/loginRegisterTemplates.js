@@ -1,6 +1,7 @@
 var TEMPLATES = TEMPLATES || {};
-
-TEMPLATES.LOGIN = '"<section id="login-controller"> \
+TEMPLATES.USERBAR = 'Hello, <span id="user-bar-username"></span>!\
+                        <a href="#" id="logout">log out</a>';
+TEMPLATES.LOGIN = '<section id="login-controller"> \
                     <div class="col-md-9 col-sm-12 text-center main-column"> \
                         <h1>PENGUIN GALLERY</h1> \
                         <a href="#" id="login"> \
@@ -25,7 +26,7 @@ TEMPLATES.LOGIN = '"<section id="login-controller"> \
                         </div> \
                     </div> \
                 </section> \
-            </div>"';
+            </div>';
     
 TEMPLATES.REGISTER = '<section id="register-controller"> \
                     <div class="col-md-9 col-sm-12 text-center main-column"> \

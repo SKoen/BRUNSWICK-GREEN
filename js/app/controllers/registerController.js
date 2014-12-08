@@ -22,7 +22,7 @@
     };
 
     function registerErrorCallback(err) {
-        notify.error(err)
+        notify.error(err);
     };
 
 }());

@@ -23,7 +23,7 @@ input{
     margin-top: 10px;
     width: 350px;
 }
-a:hover{
+a:hover, a:focus, a:active{
     text-decoration: none;
 }
 .main-column h1{
@@ -56,6 +56,15 @@ a:hover{
     display:inline-block;
     margin: 40px;
     margin-bottom: 0;
+}
+#user-bar{
+    background-color: #47C550;
+    color: #ddff00;
+    font-size: 20px;
+    text-align: right;
+}
+#user-bar a#logout{
+    margin-right:10px;
 }
 .main-options{
     margin-top:20px;
@@ -201,4 +210,46 @@ textarea{
     margin-top: 10px;
     display: block;
     font-size: 20px;
+}
+#user-albums{
+    clear: both;
+    display: inline-block;
+}
+.add-album{
+    border: 2px solid #c3c3c3;
+    border-radius: 5px;
+    float: left;
+    margin: 5px;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px 20px;
+}
+a.add-album{
+    background-color: #fffb32;
+}
+a.add-album:hover{
+    background-color: #fffc7e
+}
+.add-album .album-title{
+    font-size: 45px;
+    color: #47C550
+}
+.add-album .album-likes{
+    font-size: 20px;
+    color: #08776B;
+}
+#btn-add-album{
+    margin: 10px 0;
+    color: #F14509;
+    font-size: 19px;
+    border: 2px solid #f14609;
+    display: inline-block;
+}
+#btn-add-album:hover{
+    background-color: #eaa289;
+    color: #fff;
+}
+#btn-add-album:active{
+    background-color: #e87c57;
+    color: #fff;
 }
