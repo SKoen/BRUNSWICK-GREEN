@@ -142,7 +142,6 @@ a:hover, a:focus, a:active{
 .photo-info{
     color: #F48E09;
     font-size: 20px;
-    margin-top: 10px;
 }
 .photo-comments{
     background-color: #B9E18D;
@@ -252,4 +251,27 @@ a.add-album:hover{
 #btn-add-album:active{
     background-color: #e87c57;
     color: #fff;
+}
+
+/** Albums View Styles */
+#searchSidebar {
+    background-color: #2085bf;
+}
+
+#searchSidebar a {
+    color: #fff;
+    padding: 15px 30px;
+}
+
+#searchSidebar li {
+    padding: 30px;
+}
+
+#searchSidebar a:hover,
+#searchSidebar a.active {
+    background-color: #2e4849;
+}
+
+.photo-holder .smallLikeHand {
+    height: 15px;
 }

@@ -12,10 +12,10 @@
         var selector = "#my-albums-controller #user-albums";
         myAlbums.getAlbums(currentUser, selector, null);
     });
-    $(document).on('click', '#main-controller #penguin-world', function (e) {
+    $(document).on('click', '#penguin-world', function (e) {
         e.preventDefault();
         console.log("penguin world");
-        $('#main-controller').html(TEMPLATES.PENGUINWORLD);
+        $('#container').html(TEMPLATES.AlBUMS_VIEW);
     });
 
     $(document).on('click', '#main-controller .add-album', function (e) {

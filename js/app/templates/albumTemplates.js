@@ -2,7 +2,7 @@ var TEMPLATES = TEMPLATES || {};
 
 TEMPLATES.MYALBUMS = '<div id="my-albums-controller"> \
                         <div class="row conf-header"> \
-                            <a href="#"> \
+                            <a href="#" class="load-main"> \
                                 <div class="col-sm-2 text-center load-main"> \
                                     <img src="css/images/penguin-logo.png" /> \
                                 </div> \
@@ -17,7 +17,6 @@ TEMPLATES.MYALBUMS = '<div id="my-albums-controller"> \
                                 <a href="#"><img src="css/images/profile.png" class="img-responsive img-circle profile-image" /></a> \
                                 <ul> \
                                     <li><a href="#" class="profile"><span id="username"></span> PROFILE</a></li> \
-                                    <li><a href="#" class="logout">LogOut</a></li>\
                                     <li><a href="#"><span id="username"></span> PROFILE</a></li> \
                                     <li><a href="#" class="load-main"><span></span> MAIN</a></li> \
                                 </ul> \

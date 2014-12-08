@@ -21,7 +21,7 @@ TEMPLATES.LOGIN = '<section id="login-controller"> \
                                 <div id="register-switch">JOIN US</div> \
                             </a> \
                             <a href="#"> \
-                                <div class="try-it">TRY IT FOR FREE!</div> \
+                                <div class="try-it" id="penguin-world">TRY IT FOR FREE!</div> \
                             </a> \
                         </div> \
                     </div> \
@@ -54,7 +54,7 @@ TEMPLATES.REGISTER = '<section id="register-controller"> \
                             <div id="login-switch">LOGIN</div> \
                         </a> \
                         <a href="#"> \
-                            <div class="try-it">TRY IT FOR FREE!</div> \
+                            <div class="try-it" id="penguin-world">TRY IT FOR FREE!</div> \
                         </a> \
                     </div> \
                 </div> \

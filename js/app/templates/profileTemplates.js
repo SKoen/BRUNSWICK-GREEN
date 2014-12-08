@@ -2,7 +2,7 @@ var TEMPLATES = TEMPLATES || {};
 
 TEMPLATES.PROFILE = '<div id="profile-controller"> \
                         <div class="row conf-header"> \
-                            <a href="#"> \
+                            <a href="#" class="load-main"> \
                                 <div class="col-sm-2 text-center"> \
                                     <img src="css/images/penguin-logo.png" /> \
                                 </div> \

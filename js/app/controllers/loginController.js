@@ -2,6 +2,8 @@
     var user = new userPersistor();
 
     $(document).on('click', '#login-controller  #login', function (e) {
+        e.preventDefault();
+
         var username = $("#username").val();
         var password = $("#password").val();
         user.login(username, password, authSuccess, authError);
@@ -15,7 +17,7 @@
     };
 
     function authError(err) {
-        notify.error(err)
+        notify.error(err.message);
     };
     $(document).on('click', '#user-bar #logout', function(e){
         e.preventDefault();
