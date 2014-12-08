@@ -23,4 +23,14 @@
         $('#main-controller').html(TEMPLATES.MYPROFILE);
     });
 
+    $(document).on('click', '#main-controller .add-album', function (e) {
+        e.preventDefault();
+        console.log("add-album");
+        var albumName = $(this).find('>:first-child').text();              
+        $('#main-controller').html(TEMPLATES.UPLOADPHOTO);
+        $("h1").text(albumName);
+        console.log(albumName);
+       
+    });
+
 }());
