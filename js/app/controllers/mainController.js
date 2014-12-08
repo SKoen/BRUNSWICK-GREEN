@@ -13,13 +13,9 @@
         myAlbums.getAlbums(currentUser, selector, null);
     });
     $(document).on('click', '#penguin-world', function (e) {
-        e.preventDefault();
-<<<<<<< HEAD
-        console.log("penguin world");
+        e.preventDefault();       
         $('#container').html(TEMPLATES.AlBUMS_VIEW);
-=======
-        $('#main-controller').html(TEMPLATES.PENGUINWORLD);
->>>>>>> 5ce70a1933eb7a8217a94473c59ba43103c896fb
+
     });
 
     $(document).on('click', '#main-controller .add-album.my-album', function (e) {
@@ -76,6 +72,7 @@
 
                             success: function(data2) 
                             {
+                                alert("Photo created successfully!");
                                 //TODO: Trying to make the relation between the album and photo
                             //     //updateStatusBar("status", "Starting query 3 of 4");
 
@@ -110,6 +107,7 @@
                                 notify.error(error.message);
                              }
                         }); 
+                    }
                     }, 
                     error: function(error) 
                     {
@@ -118,17 +116,5 @@
                         notify.error(error.message);
                     }
                 }); 
-            } else {                           
-                var notify = new notify();
-                notify.error("Data is NULL");
-            }               
-        }, 
-        error: function(data) 
-        {
-            var obj = jQuery.parseJSON(data);
-            var notify = new notify();
-            notify.error(error.message);
-        }
-    }); 
 }); 
 }());
