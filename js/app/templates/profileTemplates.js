@@ -15,7 +15,7 @@ TEMPLATES.PROFILE = '<div id="profile-controller"> \
                         <div class="row conf-main"> \
                             <div class="col-sm-3 conf-menu text-center"> \
                                 <a href="#"><img src="css/images/profile.png" class="img-responsive img-circle profile-image" /></a> \
-                                <ul><li><a href="#" class="logout">LogOut</a></li></ul> \
+                                <ul><li><a href="#" class="load-main">Main</a></li></ul> \
                             </div> \
                             <div class="col-sm-9"> \
                                 <h1 class="header-text">Change your settings here</h1>\

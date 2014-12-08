@@ -32,7 +32,7 @@ $(function () {
         }
 
         if(newPass) {
-            currUser.set('email', newPass);
+            currUser.setPassword(newPass);
         }
 
         currUser.save(null, function(obj) {
