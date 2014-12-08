@@ -14,50 +14,35 @@
     });
     $(document).on('click', '#penguin-world', function (e) {
         e.preventDefault();
+<<<<<<< HEAD
         console.log("penguin world");
         $('#container').html(TEMPLATES.AlBUMS_VIEW);
+=======
+        $('#main-controller').html(TEMPLATES.PENGUINWORLD);
+>>>>>>> 5ce70a1933eb7a8217a94473c59ba43103c896fb
     });
 
-    $(document).on('click', '#main-controller .add-album', function (e) {
+    $(document).on('click', '#main-controller .add-album.my-album', function (e) {
         e.preventDefault();
-        console.log("add-album");
         var albumName = $(this).find('>:first-child').text();              
         $('#main-controller').html(TEMPLATES.UPLOADPHOTO);
         $('h1').text(albumName);
         $('h1').attr('data-album-id', $(this).attr('data-album-id'));
-        console.log(albumName);
        
     });
 
     $(document).on("change", '#main-controller #input-file', function (e) {
         var files = e.target.files || e.dataTransfer.files;
-        file = files[0];
-        //console.log(file);
+        file = files[0];      
     });
-
-
 
     $(document).on('click', '#main-controller #upload-photo', function (e) {
         e.preventDefault();
 		var albumTitle = $(this).parent().parent().find('h1').text();
 		var albumId = $(this).parent().parent().find('h1').attr('data-album-id');
 		var userId = Parse.User.current().id; 
-        var photoTitle = $(this).parent().find('>:first-child').val();
-
-        //var file;
-        var fileURL;
-        var strFileName;
-        // $('#main-controller #input-file').bind("change", function(e) 
-        //     {
-        //         var files = e.target.files || e.dataTransfer.files;
-        //         file = files[0];
-        //         //console.log(file);
-        //     });
-
-        // $('#uploadbutton').click(function() 
-        //     {
-            var serverUrl = 'https://api.parse.com/1/files/' + file.name;
-                //updateStatusBar("status", "starting query 1 of 4 - file upload - this may take 5-10 seconds");
+        var photoTitle = $(this).parent().find('>:first-child').val();      
+            var serverUrl = 'https://api.parse.com/1/files/' + file.name;              
                 $.ajax({
                     type: "POST",
                     beforeSend: function(request) {
@@ -69,8 +54,7 @@
                 data: file,
                 processData: false,
                 contentType: false,
-                success: function(data) {
-                //updateStatusBar("status", "Completed file upload, starting query 2 of 4");
+                success: function(data) {             
                 if(data) 
                 {
                     var fileName = "" + data.name;
@@ -92,69 +76,59 @@
 
                             success: function(data2) 
                             {
-                                //updateStatusBar("status", "Starting query 3 of 4");
+                                //TODO: Trying to make the relation between the album and photo
+                            //     //updateStatusBar("status", "Starting query 3 of 4");
 
-                                Parse.initialize('jz77c8IPJpyGwYB2G3owJKVVlhgDiwhksSWkaXOx', '05MEPKi8CWp4wp3dpTwDPWFz0zBwUGBdCrmYUkaz');
-                                var Photo = Parse.Object.extend("Photo");
-                                var P_query = new Parse.Query(Photo);
-                                P_query.equalTo("objectId", "RandomIDforImageAlreadyLoadedGoesHere");
-                                P_query.first({
-                                success: function(P_object) 
-                                {
-                                    //updateStatusBar("status", "query 4 of 4");
-                                    var objImage = P_object.get("YourImageColumnName");
-                                    P_query = new Parse.Query(Photo);
-                                    P_query.equalTo("objectId", strPhotoID);
-                                    P_query.first({
-                                    success: function(P_object2) 
-                                    {
-                                        objImage.url = data.url;
-                                        objImage.name = data.name;
-                                        P_object2.set(strPhotoImageDest, objImage);
-                                        P_object2.save();
-                                        //updateStatusBar("status", "upload completed");
-                                    }, // end success for P_query2
-                                    error: function(error4) 
-                                    {
-                                        var obj = jQuery.parseJSON(error2);
-                                        alert("Error: " + error4.code + " " + error4.message);
-                                    }
-                                }); // end p_query2
-                            }, // end success for P_query
-                            error: function(error4) 
+                            //     Parse.initialize('jz77c8IPJpyGwYB2G3owJKVVlhgDiwhksSWkaXOx', '5W6fpNbwpXn0opJWg2GbEkbD2Azo0J2ISRTIyJ2v');
+                            //     var alb = Parse.Object.extend("Album");
+                            //     var album_query = new Parse.Query(alb);
+                            //     album_query.equalTo("objectId", albumId);
+                            //     album_query.find({
+                            //     success: function(alb) 
+                            //     {
+                            //         var pht = Parse.Object.extend("Photo");                                    
+                            //         var photo_query = new Parse.Query(pht);
+                            //         photo_query.equalTo("objectId", pht.objectId);
+                            //         var relation = alb[0].relation({"photos" : {"__type":"Relation","className":"Photo", "objectId" : pht.objectId}});
+                            //         photo_query.find({
+                            //         success: function(singlePhotoQuery) 
+                            //         {
+                            //             relation.add(singlePhotoQuery[0]);
+                            //             alb[0].save();                                       
+                            //         }, // end success for P_query2
+                            //         error: function(error4) 
+                            //         {
+                            //             var obj = jQuery.parseJSON(error2);
+                            //             alert("Error: " + error4.code + " " + error4.message);
+                            //         }
+                            //     }); 
+                            }, 
+                            error: function(error) 
                             {
-                                var obj = jQuery.parseJSON(error2);
-                                alert("Error: " + error4.code + " " + error4.message);
+                                var obj = jQuery.parseJSON(error);
+                                var notify = new notify();
+                                notify.error(error.message);
                              }
-                        }); // end p_query
-                    }, // end success for ajax 2
-                    error: function(error2) 
+                        }); 
+                    }, 
+                    error: function(error) 
                     {
-                        var obj = jQuery.parseJSON(error2);
-                        alert("Error: " + error2.code + " " + error2.message);
+                        var obj = jQuery.parseJSON(error);                   
+                        var notify = new notify();
+                        notify.error(error.message);
                     }
-                }); // end ajax 2
-            } else {
-                            alert("Data IS NULL");
-                        }               
-        }, // end success for ajax
+                }); 
+            } else {                           
+                var notify = new notify();
+                notify.error("Data is NULL");
+            }               
+        }, 
         error: function(data) 
         {
             var obj = jQuery.parseJSON(data);
-            alert(obj.error);
+            var notify = new notify();
+            notify.error(error.message);
         }
-    }); // end ajax
-}); // end  $('#uploadbutton').click(function() 
-
-
-
-
-
-
-        // $('#main-controller').html(TEMPLATES.UPLOADPHOTO);
-        // $("h1").text(albumName);
-        // console.log(albumName);
-       
-    // });
-
+    }); 
+}); 
 }());
