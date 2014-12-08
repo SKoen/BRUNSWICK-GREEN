@@ -20,7 +20,8 @@ var userPersistor = (function () {
 
     _self.prototype.register = function (user, pass, pass2, email, success, error) {
         if (pass != pass2) {
-            notify.error("Confirm password is not same as password")
+            notify.error("Confirm password is not same as password");
+            return ;
         }
 
         var query = new Parse.Query(Parse.Role);
@@ -76,7 +77,7 @@ var userPersistor = (function () {
     };
 
     _self.prototype.isLoggedIn = function () {
-
+        // TODO:
     };
 
     return _self;

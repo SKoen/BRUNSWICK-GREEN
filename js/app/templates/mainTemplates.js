@@ -9,7 +9,7 @@ TEMPLATES.MAIN = '<div id="main-controller"> \
 	                                    <img src="css/images/penguins/01.png" /> \
 	                                </div> \
 	                            </a> \
-	                            <a href="#" id="load-profle"> \
+	                            <a href="#" id="load-profle" class="profile"> \
 	                                <div class="col-sm-offset-4 col-sm-4 main-link-albums text-right"> \
 	                                    PROFILE \
 	                                    <img src="css/images/penguins/02.png" /> \
