@@ -12,7 +12,6 @@
             var selector = "#my-albums-controller #user-albums";
             myAlbums.getAlbums(currentUser, selector, successRetrieve);
             notify.success("Album Created!");
-            console.log(data);
         };
 
         function successRetrieve(results) {

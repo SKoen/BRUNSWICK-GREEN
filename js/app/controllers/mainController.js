@@ -18,14 +18,12 @@
         $('#main-controller').html(TEMPLATES.PENGUINWORLD);
     });
 
-    $(document).on('click', '#main-controller .add-album', function (e) {
+    $(document).on('click', '#main-controller .add-album.my-album', function (e) {
         e.preventDefault();
-        console.log("add-album");
         var albumName = $(this).find('>:first-child').text();              
         $('#main-controller').html(TEMPLATES.UPLOADPHOTO);
         $('h1').text(albumName);
         $('h1').attr('data-album-id', $(this).attr('data-album-id'));
-        console.log(albumName);
        
     });
 

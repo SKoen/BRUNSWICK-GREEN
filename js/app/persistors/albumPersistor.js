@@ -26,7 +26,7 @@
                         likes: object.get('likeCount')
                     });
 
-                    var newElement = $("<a data-album-id='" + object.id + "' class='add-album load-album' href='#'></a>");
+                    var newElement = $("<a data-album-id='" + object.id + "' class='add-album my-album load-album' href='#'></a>");
                     newElement.append("<div class='album-title'>" + object.get('albumName') + "</div>");
                     newElement.append("<div class='album-likes'>Likes: " + object.get('likeCount') + "</div>");
 
