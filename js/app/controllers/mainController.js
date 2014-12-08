@@ -35,29 +35,24 @@
        
     });
 
-    $('#main-controller #input-file').bind("change", function(e) 
-            {
-                var files = e.target.files || e.dataTransfer.files;
-                file = files[0];
-                //console.log(file);
-            });
+    $(document).on("change", '#main-controller #input-file', function (e) {
+        var files = e.target.files || e.dataTransfer.files;
+        file = files[0];
+        //console.log(file);
+    });
 
 
 
     $(document).on('click', '#main-controller #upload-photo', function (e) {
         e.preventDefault();
-        console.log("upload photo");
 		var albumTitle = $(this).parent().parent().find('h1').text();
 		var albumId = $(this).parent().parent().find('h1').attr('data-album-id');
 		var userId = Parse.User.current().id; 
         var photoTitle = $(this).parent().find('>:first-child').val();
-        console.log(albumId);
-        console.log(photoTitle); 
 
         //var file;
         var fileURL;
         var strFileName;
-
         // $('#main-controller #input-file').bind("change", function(e) 
         //     {
         //         var files = e.target.files || e.dataTransfer.files;
@@ -67,17 +62,15 @@
 
         // $('#uploadbutton').click(function() 
         //     {
-        	console.log($('#main-controller #input-file'));
-                var serverUrl = 'https://api.parse.com/1/files/' + file.name;
+            var serverUrl = 'https://api.parse.com/1/files/' + file.name;
                 //updateStatusBar("status", "starting query 1 of 4 - file upload - this may take 5-10 seconds");
-
                 $.ajax({
-                type: "POST",
-                beforeSend: function(request) {
-                request.setRequestHeader("X-Parse-Application-Id", 'jz77c8IPJpyGwYB2G3owJKVVlhgDiwhksSWkaXOx');
-                request.setRequestHeader("X-Parse-REST-API-Key", '05MEPKi8CWp4wp3dpTwDPWFz0zBwUGBdCrmYUkaz');
-                request.setRequestHeader("Content-Type", file.type);
-            },
+                    type: "POST",
+                    beforeSend: function(request) {
+                    request.setRequestHeader("X-Parse-Application-Id", 'jz77c8IPJpyGwYB2G3owJKVVlhgDiwhksSWkaXOx');
+                    request.setRequestHeader("X-Parse-REST-API-Key", '05MEPKi8CWp4wp3dpTwDPWFz0zBwUGBdCrmYUkaz');
+                    request.setRequestHeader("Content-Type", file.type);
+                },
                 url: serverUrl,
                 data: file,
                 processData: false,
